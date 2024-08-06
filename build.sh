@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install PHP
+# Install PHP and required extensions
 apt-get update
 apt-get install -y php libapache2-mod-php php-cli php-mbstring php-xml php-zip php-mysql unzip curl git
 
