@@ -13,6 +13,7 @@ ENV REAL_IP_HEADER 1
 ENV APP_ENV local
 ENV APP_DEBUG true
 ENV LOG_CHANNEL stderr
+
 ENV DB_CONNECTION=mysql
 ENV DB_HOST=mysql-1382db90-wasim-fb9c.e.aivencloud.com
 ENV DB_PORT=24160
