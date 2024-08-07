@@ -14,10 +14,10 @@ ENV APP_ENV local
 ENV APP_DEBUG true
 ENV LOG_CHANNEL stderr
 
-DB_HOST=mysql-1382db90-wasim-fb9c.e.aivencloud.com
-DB_PORT=24160
-DB_DATABASE=defaultdb
-DB_USERNAME=avnadmin
+ENV DB_HOST=mysql-1382db90-wasim-fb9c.e.aivencloud.com
+ENV DB_PORT=24160
+ENV DB_DATABASE=defaultdb
+ENV DB_USERNAME=avnadmin
 
 
 # Allow composer to run as root
