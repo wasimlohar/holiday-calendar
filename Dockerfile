@@ -23,10 +23,8 @@ ENV DB_PASSWORD=AVNS_FiIwG_8EcEkxGxSyejy
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
-# Install Composer dependencies
-RUN apt-get update && apt-get install -y \
-    unzip \
-    && apt-get clean
+# Install dependencies
+RUN apk update && apk add unzip
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
